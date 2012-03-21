@@ -1,0 +1,12 @@
+{ "saudacao": "Bem vindo"
+, "menu" : { "inicio" : "Início"
+           , "catalogo" : "Catálogo"
+           , "servicos" : "Serviços Educativos"
+           , "base" : "Base de dados"
+           , "info" : "Informações Úteis"
+           , "contacto" : "Contacto"
+           }
+, "noticias" : "Últimas Notícias"
+, "pecas" : "Últimas Peças"
+, "info" : "Informações Úteis"
+}

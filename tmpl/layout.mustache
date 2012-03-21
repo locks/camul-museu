@@ -1,0 +1,69 @@
+<div class="container">
+    <div class="navbar">
+      <div class="row">
+        <div class="span12">
+          <img src="img/banner.png" style="width: 100%">
+        </div>
+      </div>
+
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          
+          {{# menu }}
+          <span class="brand">{{ saudacao }}</span>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li id="home"><a href="./">{{ inicio }}</a></li>
+              <li id="catalogo"><a href="catalogo">{{ catalogo }}</a></li>
+              <li id="visita"><a href="visita">{{ servicos }}</a></li>
+              <li id="contact"><a href="contact">{{ contacto }}</a></li>
+            </ul>
+            <p class="navbar-text pull-right">
+              <a href="layout">layout</a>
+              <a href="#">EN</a>
+              <a href="#">PT</a>
+            </p>
+          </div><!--/.nav-collapse -->
+          {{/ menu }}
+        </div>
+      </div>
+    </div><!-- navbar -->
+
+    <div id="main">
+    {{> main }}
+    </div>
+
+      <hr>
+
+      <footer class="well">
+        <div class="row">
+          <div class="span4">
+            <h5>Museu</h5>
+            <hr>
+            <a href="/contactos">Contactos</a>
+          </div>
+          <div class="span4">
+            <h5>Museu</h5>
+            <hr>
+            <a href="/contactos">Contactos</a>
+          </div>
+          <div class="span4">
+            <h5>Museu</h5>
+            <hr>
+            <a href="/contactos">Contactos</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="pull-right">
+            <p>&copy; ISEP 2012</p>
+          </div>
+        </div>
+      </footer>
+
+</div>

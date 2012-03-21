@@ -1,0 +1,12 @@
+{ "saudacao": "Welcome"
+, "menu" : { "inicio" : "Home"
+           , "catalogo" : "Catalog"
+           , "servicos" : "Educational Services"
+           , "base" : "Database"
+           , "info" : "Useful Information"
+           , "contacto" : "Contact"
+           }
+, "noticias" : "Latest News"
+, "pecas" : "Latest Pieces"
+, "info" : "Useful Information"
+}
