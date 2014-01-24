@@ -33,28 +33,35 @@
 
 <div class="row">
   <div class="span4">
-    <div class="well">
+    <div class="well well-square">
       <h5>{{ noticias }}</h5>
       <hr>
       <a href="/contactos">Contactos</a>
     </div>
   </div>
   <div class="span4">
-    <div class="well">
+    <div class="well well-square">
       <h5>{{ pecas }}</h5>
       <hr>
       <a href="/contactos">Contactos</a>
     </div>
   </div>
   <div class="span4">
-    <div class="well" style="background: orange;">
-      <h5><i class="icon-info-sign icon-white"></i> {{ info }}</h5>
+    <div class="well well-square" style="background: orange;">
+      <div style="background-color: red;">
+        <h5><i class="icon-info-sign icon-white"></i> {{ info }}</h5>
+      </div>
       <hr>
       <h6>Morada</h6>
       <p>Morada do sítio em questão</p>
       
       <h6>Telefone</h6>
       <p>Telefone do sítio em questão</p>
+      
+      <h6>Horário</h6>
+      <p>Aberto das 14h às 15h</p>
+      
+      <button class="btn">Como chegar</button>
     </div>
   </div>
 </div>
